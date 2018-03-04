@@ -22,8 +22,19 @@ namespace ElderBotLocal.Dialogs
             // calculate something for us to return
             int length = (activity.Text ?? string.Empty).Length;
 
-            // return our reply to the user
-            await context.PostAsync($"You sent {activity.Text} which was {length} characters");
+            var response = "ElderBot is responding";
+
+            // return bot reply to the user
+            await context.PostAsync($"{response}");
+            
+            //write bot replay to MessageLogDatabase
+            LogMessageToDb.WriteToDatabase
+            (
+                   conversationid: activity.Conversation.Id
+                 , username: "ElderBot"
+                 , channel: activity.ChannelId
+                 , message: response
+            );
 
             context.Wait(MessageReceivedAsync);
         }
