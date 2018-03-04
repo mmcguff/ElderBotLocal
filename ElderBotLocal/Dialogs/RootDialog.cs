@@ -22,7 +22,14 @@ namespace ElderBotLocal.Dialogs
             // calculate something for us to return
             int length = (activity.Text ?? string.Empty).Length;
 
-            var response = "ElderBot is responding";
+
+            //var response = "ElderBot is responding";
+            //This will call an method that will pull from the database.  
+
+            var topic = activity.Text;
+
+            var response = GetBotResponse.Response(topic);
+
 
             // return bot reply to the user
             await context.PostAsync($"{response}");

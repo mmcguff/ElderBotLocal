@@ -177,6 +177,7 @@
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
+    <Compile Include="Dialogs\GetBotResponse.cs" />
     <Compile Include="Dialogs\LogMessageToDb.cs" />
     <Compile Include="Models\BotDataModel.Context.cs">
       <AutoGen>True</AutoGen>

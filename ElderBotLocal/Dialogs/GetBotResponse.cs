@@ -1,0 +1,27 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Web;
+
+namespace ElderBotLocal.Dialogs
+{
+    public class GetBotResponse
+    {
+        public static string Response(string topic)
+        {
+            using (Models.ElderBotLocalDbEntities db = new Models.ElderBotLocalDbEntities())
+            {
+                var q = db.BotResponses.Where(r => r.Topic == topic)
+                    .Select(r => new { r.Response });
+                foreach (var row in q)
+                {
+                    return row.Response.ToString();
+                }
+
+                return "No match";
+
+            }
+
+        }
+    }
+}
