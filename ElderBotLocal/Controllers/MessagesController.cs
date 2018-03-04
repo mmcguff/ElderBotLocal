@@ -4,6 +4,7 @@ using System.Threading.Tasks;
 using System.Web.Http;
 using Microsoft.Bot.Builder.Dialogs;
 using Microsoft.Bot.Connector;
+using ElderBotLocal.Dialogs;
 
 namespace ElderBotLocal
 {
@@ -18,6 +19,15 @@ namespace ElderBotLocal
         {
             if (activity.Type == ActivityTypes.Message)
             {
+                //Logging messages typed by the User to the Database
+                LogMessageToDb.WriteToDatabase
+                 (
+                     conversationid: activity.Conversation.Id
+                    , username: activity.From.Name
+                    , channel: activity.ChannelId
+                    , message: activity.Text
+                 );
+
                 await Conversation.SendAsync(activity, () => new Dialogs.RootDialog());
             }
             else
