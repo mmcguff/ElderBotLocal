@@ -1,0 +1,41 @@
+C:\git\mmcguff\ElderBotLocal\ElderBotLocal\bin\Bot Application.dll.config
+C:\git\mmcguff\ElderBotLocal\ElderBotLocal\bin\Bot Application.dll
+C:\git\mmcguff\ElderBotLocal\ElderBotLocal\bin\Bot Application.pdb
+C:\git\mmcguff\ElderBotLocal\ElderBotLocal\bin\Autofac.dll
+C:\git\mmcguff\ElderBotLocal\ElderBotLocal\bin\Chronic.dll
+C:\git\mmcguff\ElderBotLocal\ElderBotLocal\bin\Microsoft.Bot.Builder.Autofac.dll
+C:\git\mmcguff\ElderBotLocal\ElderBotLocal\bin\Microsoft.Bot.Builder.dll
+C:\git\mmcguff\ElderBotLocal\ElderBotLocal\bin\Microsoft.Bot.Connector.dll
+C:\git\mmcguff\ElderBotLocal\ElderBotLocal\bin\Microsoft.IdentityModel.Protocol.Extensions.dll
+C:\git\mmcguff\ElderBotLocal\ElderBotLocal\bin\Microsoft.Rest.ClientRuntime.dll
+C:\git\mmcguff\ElderBotLocal\ElderBotLocal\bin\Microsoft.WindowsAzure.Configuration.dll
+C:\git\mmcguff\ElderBotLocal\ElderBotLocal\bin\Newtonsoft.Json.dll
+C:\git\mmcguff\ElderBotLocal\ElderBotLocal\bin\System.IdentityModel.Tokens.Jwt.dll
+C:\git\mmcguff\ElderBotLocal\ElderBotLocal\bin\System.Net.Http.Formatting.dll
+C:\git\mmcguff\ElderBotLocal\ElderBotLocal\bin\System.Web.Http.dll
+C:\git\mmcguff\ElderBotLocal\ElderBotLocal\bin\System.Web.Http.WebHost.dll
+C:\git\mmcguff\ElderBotLocal\ElderBotLocal\bin\Autofac.xml
+C:\git\mmcguff\ElderBotLocal\ElderBotLocal\bin\Microsoft.Bot.Builder.xml
+C:\git\mmcguff\ElderBotLocal\ElderBotLocal\bin\Microsoft.Bot.Builder.Autofac.xml
+C:\git\mmcguff\ElderBotLocal\ElderBotLocal\bin\Microsoft.Bot.Connector.xml
+C:\git\mmcguff\ElderBotLocal\ElderBotLocal\bin\Microsoft.IdentityModel.Protocol.Extensions.xml
+C:\git\mmcguff\ElderBotLocal\ElderBotLocal\bin\Microsoft.WindowsAzure.Configuration.xml
+C:\git\mmcguff\ElderBotLocal\ElderBotLocal\bin\Newtonsoft.Json.xml
+C:\git\mmcguff\ElderBotLocal\ElderBotLocal\bin\System.IdentityModel.Tokens.Jwt.xml
+C:\git\mmcguff\ElderBotLocal\ElderBotLocal\bin\System.Net.Http.Formatting.xml
+C:\git\mmcguff\ElderBotLocal\ElderBotLocal\bin\System.Web.Http.xml
+C:\git\mmcguff\ElderBotLocal\ElderBotLocal\bin\System.Web.Http.WebHost.xml
+C:\git\mmcguff\ElderBotLocal\ElderBotLocal\bin\ar\Microsoft.Bot.Builder.resources.dll
+C:\git\mmcguff\ElderBotLocal\ElderBotLocal\bin\cs\Microsoft.Bot.Builder.resources.dll
+C:\git\mmcguff\ElderBotLocal\ElderBotLocal\bin\de-dE\Microsoft.Bot.Builder.resources.dll
+C:\git\mmcguff\ElderBotLocal\ElderBotLocal\bin\en\Microsoft.Bot.Builder.resources.dll
+C:\git\mmcguff\ElderBotLocal\ElderBotLocal\bin\es\Microsoft.Bot.Builder.resources.dll
+C:\git\mmcguff\ElderBotLocal\ElderBotLocal\bin\fa\Microsoft.Bot.Builder.resources.dll
+C:\git\mmcguff\ElderBotLocal\ElderBotLocal\bin\fr\Microsoft.Bot.Builder.resources.dll
+C:\git\mmcguff\ElderBotLocal\ElderBotLocal\bin\ja\Microsoft.Bot.Builder.resources.dll
+C:\git\mmcguff\ElderBotLocal\ElderBotLocal\bin\ru\Microsoft.Bot.Builder.resources.dll
+C:\git\mmcguff\ElderBotLocal\ElderBotLocal\bin\zh-hans\Microsoft.Bot.Builder.resources.dll
+C:\git\mmcguff\ElderBotLocal\ElderBotLocal\obj\Debug\ElderBotLocal.csprojResolveAssemblyReference.cache
+C:\git\mmcguff\ElderBotLocal\ElderBotLocal\obj\Debug\ElderBotLocal.csproj.CoreCompileInputs.cache
+C:\git\mmcguff\ElderBotLocal\ElderBotLocal\obj\Debug\Bot Application.dll
+C:\git\mmcguff\ElderBotLocal\ElderBotLocal\obj\Debug\Bot Application.pdb
