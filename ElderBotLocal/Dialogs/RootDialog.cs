@@ -20,7 +20,8 @@ namespace ElderBotLocal.Dialogs
             var activity = await result as Activity;
 
             // calculate something for us to return
-            int length = (activity.Text ?? string.Empty).Length;
+            //Lets use something like this to prevent over long input.  
+            int length = (activity.Text ?? string.Empty).Length;  
 
 
             //var response = "ElderBot is responding";
