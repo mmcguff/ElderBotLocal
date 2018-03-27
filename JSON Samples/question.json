@@ -1,0 +1,30 @@
+{
+    "query": "what do you believe?",
+    "topScoringIntent": {
+      "intent": "question",
+      "score": 0.9999995
+    },
+    "intents": [
+      {
+        "intent": "question",
+        "score": 0.9999995
+      },
+      {
+        "intent": "None",
+        "score": 0.0307085719
+      },
+      {
+        "intent": "troll",
+        "score": 0.0246909671
+      }
+    ],
+    "entities": [
+      {
+        "entity": "believe",
+        "type": "faith",
+        "startIndex": 12,
+        "endIndex": 18,
+        "score": 0.895644546
+      }
+    ]
+  }

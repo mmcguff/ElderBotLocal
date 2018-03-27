@@ -12,7 +12,7 @@ namespace ElderBotLocal.Dialogs
         {
             using (Models.ElderBotLocalDbEntities db = new Models.ElderBotLocalDbEntities())
             {
-                //We need to add someway of ensure we only pull one and row and if no row is found
+                //We need to add someway of ensure we only pull one and only one row and if no row is found
                 //then we pull a I don't understand type response from the database.
                 var q = db.BotResponses.Where(r => r.Topic == topic)
                     .Select(r => new { r.Response });
@@ -21,7 +21,7 @@ namespace ElderBotLocal.Dialogs
                     return row.Response.ToString();
                 }
 
-                return "No match";
+                return "Can you try asking your questions a different way.  I didn't get that.  Thanks!";
 
             }
 

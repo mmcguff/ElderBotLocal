@@ -28,7 +28,8 @@ namespace ElderBotLocal
                     , message: activity.Text
                  );
 
-                await Conversation.SendAsync(activity, () => new Dialogs.RootDialog());
+                //await Conversation.SendAsync(activity, () => new Dialogs.RootDialog());
+                await Conversation.SendAsync(activity, () => new Dialogs.RootLuisDialog());
             }
             else
             {

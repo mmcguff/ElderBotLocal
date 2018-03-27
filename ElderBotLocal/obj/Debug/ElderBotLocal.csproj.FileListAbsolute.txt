@@ -61,3 +61,4 @@ C:\git\mmcguff\ElderBotLocal\ElderBotLocal\bin\System.Web.Razor.xml
 C:\git\mmcguff\ElderBotLocal\ElderBotLocal\bin\System.Web.WebPages.xml
 C:\git\mmcguff\ElderBotLocal\ElderBotLocal\bin\System.Web.WebPages.Deployment.xml
 C:\git\mmcguff\ElderBotLocal\ElderBotLocal\bin\System.Web.WebPages.Razor.xml
+C:\git\mmcguff\ElderBotLocal\ElderBotLocal\obj\Debug\ElderBotLocal.csproj.CopyComplete
