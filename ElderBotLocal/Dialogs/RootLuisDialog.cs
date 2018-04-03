@@ -27,6 +27,15 @@ namespace ElderBotLocal.Dialogs
 
             string message = GetBotResponse.Response(topic);
 
+            //write to database
+            LogMessageToDb.WriteToDatabase
+            (
+                conversationid: context.Activity.Conversation.Id
+                , username: "ElderBot"
+                , channel: context.Activity.ChannelId
+                , message: message
+            );
+
             await context.PostAsync(message);
             
             context.Wait(this.MessageReceived);
