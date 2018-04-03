@@ -21,7 +21,7 @@ namespace ElderBotLocal.Dialogs
                     return row.Response.ToString();
                 }
 
-                return "Can you try asking your questions a different way.  I didn't get that.  Thanks!";
+                return "I don't have this intent in my database.  That's embarassing.";
 
             }
 

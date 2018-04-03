@@ -15,15 +15,17 @@ namespace ElderBotLocal.Dialogs
     [Serializable]
     public class RootLuisDialog : LuisDialog<object>
     {
-        dynamic topic;
+       
+        dynamic t;
 
         [LuisIntent("")]
         public async Task None(IDialogContext context, LuisResult result)
         {
-            topic = result.TopScoringIntent.Intent;
-            string t = topic;
+           
+            t = result.TopScoringIntent.Intent;
+            string topic = t;
 
-            string message = GetBotResponse.Response(t);
+            string message = GetBotResponse.Response(topic);
 
             await context.PostAsync(message);
             
